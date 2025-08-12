@@ -1,5 +1,7 @@
-#include<stdio.h>
+#include<iostream>
 using namespace std;
+
+class mango;
 
 class apple{
     int x;
@@ -8,7 +10,7 @@ class apple{
         cin>>x;
     }
     friend void add(apple,mango);
-}
+};
 class mango{
     int y;
     public:
@@ -16,16 +18,16 @@ class mango{
         cin>>y;
     } 
     friend void add(apple, mango);
-}
+};
 void add(apple a1,mango m1){
     int sum=a1.x+m1.y;
-    cout<<"sum="<<sum;
+    cout<<"sum="<<sum<<endl;
 }
 int main(){
     apple obj1;
      mango obj2;
      obj1.getdata1();
-     obj2.getdata();
+     obj2.getdata2();
      add(obj1,obj2);
      return 0;
 }
