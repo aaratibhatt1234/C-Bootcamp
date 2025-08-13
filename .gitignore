@@ -1,0 +1,73 @@
+# Build output
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.gch
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+_build/
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.vcxproj.*
+ipch/
+.vscode/
+
+# CLion / JetBrains IDEs
+.idea/
+*.iml
+cmake-build-*/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Qt Creator
+*.pro.user
+*.qbs.user
+*.qmlproject.user
+*.autosave
+
+# Others
+*.log
+*.cache
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Test output
+test_output/
+*.gcda
+*.gcno
+*.gcov
