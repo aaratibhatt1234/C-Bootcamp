@@ -8,7 +8,7 @@ class static_item
     public:
     void getdata(float a)
     {
-        price =a;
+        price=a;
         count++;
     }
     void showcount()
