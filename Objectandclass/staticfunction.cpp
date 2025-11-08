@@ -13,7 +13,7 @@ class BCT{
         cout<<"Student code="<<code<<"/BCT080"<<endl;
     }
     static void showcount(){
-        cout<<"Records of"<<count<<"student found";
+        cout<<"Records of"<<count<<"student found"<<endl;
     }
 };
 int BCT::count;
